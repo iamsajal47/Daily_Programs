@@ -1,0 +1,14 @@
+n = int(input("Enter temperature in celsius: "))
+
+if n == 0:
+    print("Freezing cold")
+elif n <=10:
+    print("Very cold")
+elif n<=20:
+    print("cold")
+elif n<=30:
+    print("pleasant")
+elif n<=40:
+    print("Hot")
+elif n <= 60:
+    print("Very Hot")
